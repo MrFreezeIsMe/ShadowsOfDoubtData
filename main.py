@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_excel('C:/Users/Admin/Desktop/shdw/Shadows.xlsx')
+df = pd.read_excel('PLACE YOUR FILEPATH HERE')
 
 allValues = df[(df.Disk>=0)]
 #print(a)
